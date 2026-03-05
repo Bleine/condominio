@@ -1,0 +1,42 @@
+Tabelas do Condominios Data Base
+
+Condominio
+    id_condominio
+    nome_condominio
+    cnpj_condominio
+    endereco_condominio
+    id_sindico
+
+# funcionalidade futura: como vincular CEP à cidade, estado e país.    
+
+Unidades
+    id_unidade
+    id_condominio
+    numero_unidade
+    id_proprietario
+    tipo_unidade
+
+Proprietarios
+    id_proprietario
+    nome_proprietario
+    cpf_proprietário
+    telefone_proprietario
+
+
+Sindico
+    id_sindico
+    nome_sindico
+    cpf_sindico
+    telefone_sindico
+
+Despesas
+    data_despesa
+    gas_despesa
+    agua_despesa
+    luz_despesa
+    zelador_despesa
+    manutencao_despesa
+    salario_sindico_despesa
+
+
+
