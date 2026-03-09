@@ -40,3 +40,5 @@ Despesas
 
 
 
+Notas
+requirements.txt
