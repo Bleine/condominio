@@ -42,3 +42,4 @@ Despesas
 
 Notas
 requirements.txt
+investigar under score e enter point

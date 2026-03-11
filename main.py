@@ -1,3 +1,6 @@
+from condominios import condominios
+
+
 def menu():
     while True:
         print("1 - opção 1")
@@ -9,7 +12,7 @@ def menu():
         escolha = int(input())
 
         if escolha == 1:
-            opcao_1()
+            condominios()
         else:
             break
 
@@ -24,28 +27,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
