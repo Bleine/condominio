@@ -1,24 +1,24 @@
 from condominios import condominios
+from sindicos import sindicos
 
 
 def menu():
     while True:
-        print("1 - opção 1")
-        print("2 - opção 2")
-        print("3 - opção 3")
-        print("0 - sair")
+        print("1 - Condomínios")
+        print("2 - Unidades")
+        print("3 - Síndico")
+        print("0 - Despesas")
 
         print("Selecione uma opção: ")
         escolha = int(input())
 
         if escolha == 1:
             condominios()
+        elif escolha == 3:
+            sindicos()
+
         else:
             break
-
-
-def opcao_1():
-    print("Você escolheu a opção 1")
 
 
 def main():
