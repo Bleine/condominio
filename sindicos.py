@@ -12,6 +12,15 @@ def sindicos():
         match escolha:
             case 1:
                 print("CREATE")
+                nome_sindico = input("Nome do Síndico: ")
+                cpf_sindico = input("CPF do Síndico: ")
+                telefone_sindico = input("Telefone do Síndico: ")
+                conn = sqlite3.connect("condominios.db")
+                cursor = conn.cursor()
+                cursor.execute("""INSERT INTO sindicos(nome_sindico, cpf_sindico, telefone_sindico) VALUES (?,?,?)""",
+                               (nome_sindico, cpf_sindico, telefone_sindico,))
+                conn.commit()
+                conn.close()
             case 2:
                 conn = sqlite3.connect("condominios.db")
                 cursor = conn.cursor()

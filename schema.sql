@@ -1,8 +1,8 @@
 
 CREATE TABLE IF NOT EXISTS sindicos (
-    id_sindico INT PRIMARY KEY NOT NULL ,
+    id_sindico INTEGER PRIMARY KEY,
     nome_sindico TEXT NOT NULL,
-    cpf_sindico INT NOT NULL UNIQUE,
+    cpf_sindico INTEGER NOT NULL UNIQUE,
     telefone_sindico INTEGER
 );
 
