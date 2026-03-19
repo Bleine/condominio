@@ -6,7 +6,7 @@ def condominios():
         try:
             escolha = int(input("Escolha uma opção: "))
         except ValueError:
-            print("Escolha não é um inteiro")
+            print("Essa opção não existe")
         else:
             match escolha:
                 case 1:
